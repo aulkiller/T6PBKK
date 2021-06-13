@@ -23,11 +23,14 @@
         <a class="logo" href="../"> <img src="<?php echo base_url('assets/images/logo.svg') ?>" alt="icon"> Home </a>
         <nav>
             <ul class="nav-items">
-			<li>
+			    <li>
                     <a href="../contact/">Contact</a>
                 </li>
                 <li>
-                    <a class="btn" href="../about/">About Me</a>
+                    <a href="../portfoliouser/">My Portfolio</a>
+                </li>
+                <li>
+                    <a class="btn" href="#">About Me</a>
                 </li>
             </ul>
             <div class="menu-btn">

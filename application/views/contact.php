@@ -24,7 +24,10 @@
         <nav>
             <ul class="nav-items">
                 <li>
-                    <a href="../contact/">Contact</a>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="../portfoliouser/">My Portfolio</a>
                 </li>
                 <li>
                     <a class="btn" href="../about/">About Me</a>

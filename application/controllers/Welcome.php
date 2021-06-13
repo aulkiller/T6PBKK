@@ -3,6 +3,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 
+	public function __construct()
+    {
+        parent::__construct();
+        $this->load->model("portfolio_model");
+        $this->load->library('form_validation');
+    }
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -33,5 +40,12 @@ class Welcome extends CI_Controller {
 	{
 		// fungsi untuk me-load view contact.php
 		$this->load->view('contact');
+	}
+
+	public function portfoliouser()
+	{
+		// fungsi untuk me-load data.php
+		$data["portfolios"] = $this->portfolio_model->getAll();
+		$this->load->view('portfoliouser', $data);
 	}
 }

@@ -1,0 +1,56 @@
+/*CONTENT*/
+.Title {
+    padding: 5% 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/bg.png);
+}
+
+.wadah {
+    padding: 5% 15%;
+    text-align: left;
+}
+
+.wadah .part {
+    display: flex;
+    padding: 2%;
+}
+
+.details {
+    padding: 0 5%;
+}
+
+.wadah img {
+    width: 40%;
+}
+
+.wadah h4 {
+    font-size: 2vw;
+}
+
+.wadah p {
+    font-size: 1.2vw;
+    padding-bottom: 3%;
+}
+
+.details a {
+    font-size: 1.1vw;
+}
+
+.details .btn {
+    display: inline-block;
+    color: #0094FF;
+    padding: 1% 5%;
+    background-color: #ffffff;
+    border-color: #0094FF;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.details .btn:hover {
+    color: #ffffff;
+    background-color: #0094FF;
+}
+
+.wadah img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
