@@ -27,7 +27,7 @@
                     <a href="../../contact/">Contact User Side</a>
                 </li>
                 <li>
-                    <a href="../portfolios/">Portfolio Admin Side</a>
+                    <a href="../">Portfolio Admin Side</a>
                 </li>
                 <li>
                     <a class="btn" href="../../about/">About Me</a>
@@ -45,7 +45,7 @@
             <h1>My Portfolio Admin Side</h1>
         </div>
         <div class="subtitle">
-            <h2>For CRUD Purpose</h2>
+            <h2>For CRUD Purpose (Update)</h2>
         </div>
         <div class="wadah">
             <?php if ($this->session->flashdata('success')): ?>
@@ -109,7 +109,7 @@
                         <div class="form-group">
                             <label for="portfolio_desc">Description</label>
                             <textarea class="form-control <?php echo form_error('portfolio_desc') ? 'is-invalid':'' ?>"
-                                name="portfolio_desc" placeholder="Portfolio description..."> <?php echo $portfolio->portfolio_desc ?> </textarea>
+                                name="portfolio_desc" placeholder="Portfolio description..."><?php echo $portfolio->portfolio_desc ?></textarea>
                             <div class="invalid-feedback">
                                 <?php echo form_error('portfolio_desc') ?>
                             </div>

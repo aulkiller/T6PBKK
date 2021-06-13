@@ -45,7 +45,7 @@
             <h1>My Portfolio Admin Side</h1>
         </div>
         <div class="subtitle">
-            <h2>For CRUD Purpose</h2>
+            <h2>For CRUD Purpose (Create)</h2>
         </div>
         <div class="wadah">
             <?php if ($this->session->flashdata('success')): ?>
@@ -89,11 +89,11 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="name">Photo</label>
+                            <label for="portfolio_image">Photo</label>
                             <input class="form-control-file <?php echo form_error('portfolio_category') ? 'is-invalid':'' ?>"
-                                type="file" name="image" />
+                                type="file" name="portfolio_image" />
                             <div class="invalid-feedback">
-                                <?php echo form_error('image') ?>
+                                <?php echo form_error('portfolio_image') ?>
                             </div>
                         </div>
 

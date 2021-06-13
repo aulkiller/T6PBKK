@@ -55,7 +55,6 @@ class Portfolio_model extends CI_Model
         $this->portfolio_date = $post["portfolio_date"];
         $this->portfolio_desc = $post["portfolio_desc"];
         if (!empty($_FILES["portfolio_image"]["name"])) {
-            print_r($_FILES);
             $this->portfolio_image = $this->_uploadImage();
         } else {
             $this->portfolio_image = $post["old_image"];

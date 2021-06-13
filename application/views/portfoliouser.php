@@ -50,7 +50,9 @@
         <div class="wadah">
             <?php foreach ($portfolios as $portfolio): ?>
                 <div class="part">
-                    <img src="<?php echo base_url('upload/portfolio/'.$portfolio->portfolio_image) ?>">
+                    <div class="waduh">
+                        <img src="<?php echo base_url('upload/portfolio/'.$portfolio->portfolio_image) ?>">
+                    </div>
                     <div class="details">
                         <h4><?php echo $portfolio->portfolio_name ?></h4>
                         <h5>Category : <?php echo $portfolio->portfolio_category ?></h5>

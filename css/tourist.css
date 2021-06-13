@@ -18,8 +18,10 @@
     padding: 0 5%;
 }
 
-.wadah img {
-    width: 40%;
+.waduh img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
 }
 
 .wadah h4 {
